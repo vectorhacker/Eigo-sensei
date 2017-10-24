@@ -910,8 +910,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .appBackground {
     position: relative;
     background-image: url("../images/fujisanflex.JPG");
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width:768px){
@@ -926,4 +926,30 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
         display: none;
     }
 
+}
+
+@media only screen and (max-width : 1200px) {
+    .main .motto {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .main .subscribe .info-text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 979px) {
+    .main .motto {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .main .logo {
+        font-size: 50px;
+    }
+
+    .main .subscribe .info-text {
+        font-size: 16px;
+    }
 }
