@@ -907,6 +907,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: #FF3B30;
 }
 
+.appBackground {
+    position: relative;
+    background-image: url("../images/fujisanflex.JPG");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
 @media (max-width:768px){
     .fixed-plugin{
         top: 80px;
