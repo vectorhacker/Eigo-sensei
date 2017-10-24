@@ -633,6 +633,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     .navbar-collapse{
         text-align: center;
     }
+    .navbar-collapse.in{
+        overflow-y: hidden;
+    }
     .navbar-collapse .navbar-form {
         width: 170px;
         margin: 0 auto;
