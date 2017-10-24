@@ -1,10 +1,10 @@
 # Project Title
 
-This is a small website with personal infomation about Eigo-senseo
+Simple landing page created by Adly Loukil.
 
 ## Built With
 
-Basic HTML, CSS and Javascript.
+Basic HTML, CSS, Javascript, bootstrap v3, and jquery 1.10
 
 ## Used languages
 
@@ -14,3 +14,4 @@ Basic HTML, CSS and Javascript.
 ## Future scope
 
 - This website will be soon launched in Japanese language too.
+
