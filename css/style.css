@@ -913,6 +913,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .appBackground {
     position: relative;
     background-image: url("../images/fujisanflex.JPG");
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
